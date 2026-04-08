@@ -1,14 +1,7 @@
 {
   "defaultProvider": "openrouter",
-  "defaultModel": "google/gemini-2.5-flash",
+  "defaultModel": "anthropic/claude-sonnet-4-5",
   "defaultThinkingLevel": "low",
-  "compaction": {
-    "enabled": true,
-    "reserveTokens": 8192,
-    "keepRecentTokens": 20000
-  },
-  "retry": {
-    "enabled": true,
-    "maxRetries": 5
-  }
+  "compaction": {"enabled": false},
+  "retry": {"enabled": false}
 }
